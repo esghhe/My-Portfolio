@@ -12,6 +12,10 @@
         position: absolute;
         cursor: pointer;
 
+        @include mobile {
+            display: none;
+          }
+
         &.left{
             left: 100px;
             transform: rotateY(180deg);
@@ -28,6 +32,12 @@
         left: 0;
         transition: all 1s ease-out;
 
+        @include mobile {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+          }
+
         .container{
             width: 100vw;
             display: flex;
@@ -42,6 +52,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include mobile {
+                    width: 80%;
+                    height: 150px;
+                    margin: 15px 0;
+                  }
 
                 .left{
                     flex: 4;
