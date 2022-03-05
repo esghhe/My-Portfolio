@@ -10,28 +10,28 @@ export default function Testimonials() {
         "",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "",
     },
     {
       id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
+      name: "John Baxtor",
+      title: "A Teaching Assistat(TA) at Ucb bootcamp",
       img:
         "",
       icon: "assets/youtube.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        "",
       featured: true,
     },
     {
       id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
+      name: "Brian Ford",
+      title: "A Teaching Assistat(TA) at Ucb bootcamp",
       img:
         "",
       icon: "assets/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "",
     },
   ];
   return (
