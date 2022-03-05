@@ -58,7 +58,7 @@ npm run deploy
 
 5. Every time you want your deployed site to update with the changes you've made, you need to run npm run deploy
 
-## ## License
+## License
 
 This project is licensed under the MIT license.
 
