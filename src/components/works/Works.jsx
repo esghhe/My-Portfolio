@@ -9,7 +9,7 @@ export default function Works() {
             icon: "./assets/mobile.png",
             title: "Flight-Planner",
             desc:
-              "",
+              "https://esghhe.github.io/flight-planner/",
             img:
               "./assets/Flight-Planner.png",
           },
@@ -18,7 +18,7 @@ export default function Works() {
             icon: "./assets/globe.png",
             title: "Eatery",
             desc:
-              "",
+              "https://esghhe.github.io/Eatery-/",
             img:
               "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
           },
@@ -27,7 +27,7 @@ export default function Works() {
             icon: "./assets/writing.png",
             title: "Movie-chat",
             desc:
-              "",
+                  "https://serene-bayou-10080.herokuapp.com/",
             img:
               "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
           },
@@ -50,12 +50,12 @@ export default function Works() {
                                     <img src={d.icon} alt="" />
                                 </div>
                                 <h2>{d.title}</h2>
-                                <p>{d.desc}</p>
+                                <a href={d.desc}> Live demo </a>
                                 <span>Projects</span>
                             </div>
                         </div>
                         <div className="right">
-                            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930" alt="" />
+                            <img src="assets/Flight-Planner.png" alt="" />
                         </div>
                     </div>
                 </div>
