@@ -54,8 +54,7 @@ npm run deploy
 ```
   
 4. This creates a new branch, gh-pages. Open your deploy settings in Github and change the deploy branch to gh-pages
-  ![deploysettings](assets/githubusercontent.png)
-
+  
 5. Every time you want your deployed site to update with the changes you've made, you need to run npm run deploy
 
 ## License
