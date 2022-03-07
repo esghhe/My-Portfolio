@@ -30,7 +30,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://esghhe.github.io/My-Portfolio/",
+  "homepage": "https://esghhe.github.io/My-Portfolio",
   "browserslist": {
     "production": [
       ">0.2%",
